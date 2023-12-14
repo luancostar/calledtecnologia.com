@@ -11,7 +11,20 @@
   background-color: #b68834;
   color: #fff;
 }
-
+.img-fluid {
+ 
+  height: auto;
+}
+.img-fluid-s{
+  max-width: 50%;
+}
+.btn-sbm{
+  background-color: rgb(245,189,1) !important;
+}
+.btn-sbm:hover{
+  background-color: #000 !important;
+  color: rgb(245,189,1) !important; 
+}
 ::selection {
   background-color: #b68834;
   color: #fff;
@@ -2397,10 +2410,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right {
-  background: url(../img/video-bg.jpg) no-repeat center;
+ 
   background-size: cover;
   height: 350px;
   border-radius: 10px;
+}
+.video-right img{
+  width: 700px;
 }
 
 .video-right .overlay-bg {
