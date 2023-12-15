@@ -19,6 +19,9 @@
  
   height: auto;
 }
+.sec-clients{
+  background: #fff !important;
+}
 .img-fluid-s{
   max-width: 50%;
 }
@@ -2320,7 +2323,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-gap {
   padding: 120px 0;
-  background-image: url(../img/bg-mid.png);
+  background-image: url(../img/mid-b-png.png);
   color: #fff;
   background-size: cover;
 }
@@ -2609,9 +2612,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-review .star .checked {
-  color: orange;
+  color: orange ;
 }
-
+.counter, .counter-p{
+  color: rgb(254,197,0) !important;
+  font-weight: 500 !important;
+}
+ 
 .counter-row {
   margin-top: 100px;
 }
