@@ -73,6 +73,7 @@ body {
 #img-transform{
   transform: scale(1);
   transition: transform 0.5s ease;
+  border-radius: 10px;
 }
 #img-transform:hover{
   transform: scale(1.05);
@@ -2204,6 +2205,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-gap {
   padding: 120px 0;
+  background-image: url(../img/bg-mid.png);
+  background-size: cover;
 }
 
 .section-title {
