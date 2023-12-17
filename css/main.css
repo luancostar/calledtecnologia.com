@@ -6,6 +6,8 @@
 /* =================================== */
 /*  Basic Style 
 /* =================================== */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&family=Sen:wght@700&display=swap');
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #b68834;
@@ -21,6 +23,12 @@
 }
 .sec-clients{
   background: #fff !important;
+}
+.small-tag{
+  display: flex;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 80px;
 }
 .img-fluid-s{
   max-width: 50%;
@@ -2017,6 +2025,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 100%;
 }
+.contacts{
+  display: grid;
+  text-decoration: none;
+}
+.contacts a {
+  text-decoration: none;
+}
 .logo-cliente{
   background-image: url(../img/clientes/vb.png);
   background-size: 800px;
@@ -2030,6 +2045,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -50px;
+  filter: drop-shadow(1px 1px 0px black);
 }
 .logo-cliente-3{
   background-image: url(../img/clientes/logo-md.png);
@@ -2037,6 +2053,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   background-position: center;
   margin-top: -50px;
+  filter: drop-shadow(1px 1px 0px black);
 }
 .nav-menu ul li {
   min-width: 180px;
@@ -2065,7 +2082,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Nav Meu Container */
 #nav-menu-container {
   margin: 0;
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
   position: absolute;
 }
 
@@ -2529,9 +2547,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-review .star .checked {
   color: orange ;
 }
+.counter{
+  background-image: url('../img/under.png');
+  background-size: cover;
+}
 .counter, .counter-p{
-  color: rgb(254,197,0) !important;
-  font-weight: 500 !important;
+  /* color: rgb(254,197,0) !important; */
+  color: #000 !important;
+  font-family: 'Sen', sans-serif;
 }
  
 .counter-row {
@@ -2539,8 +2562,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .counter-row .single-counter h1 {
-  font-size: 60px;
+  font-size: 85px;
   font-weight: 100;
+ 
+
 }
 
 @media (max-width: 767px) {
@@ -2592,8 +2617,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .footer-area {
   color: #fff;
   padding-top: 220px;
-  background: url(../img/bg-bottom.png) center;
+  background: url(../img/mid-b-png.png) center;
   background-size: cover;
+  background-position: top;
 }
 
 .footer-area h6 {
